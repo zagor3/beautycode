@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
+	
+  <head>
 		<meta http-equiv="content-type" content="text/html; charset=UTF-8">
 		<meta charset="utf-8">
 		
@@ -31,7 +32,8 @@
 		<![endif]-->
 		<link href="<?php bloginfo('template_directory'); ?>/css/styles.css" rel="stylesheet">
 	</head>
-	<body>
+
+<body>
 <!-- Wrap all page content here -->
 <div id="wrap">
 
