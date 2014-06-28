@@ -26,7 +26,7 @@
 
 		<meta name="generator" content="Bootply" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-		<link href="<?php bloginfo('template_directory'); ?>/css/bootstrap.min.css" rel="stylesheet">
+		<link href="<?php bloginfo('template_directory'); ?>/css/bootstrap.css" rel="stylesheet">
 		<!--[if lt IE 9]>
 			<script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
 		<![endif]-->
@@ -51,40 +51,49 @@
       </ol>
       <div class="carousel-inner">
         <div class="item active">
-          <img src="/assets/example/bg_5.jpg">
+          <img src="<?php bloginfo('template_directory'); ?>/images/1.jpg">
           <div class="container">
             <div class="carousel-caption">
-              <h2>Architectural Design</h2>
+              <h2>Gesichtsbehandlungen</h2>
               <p></p>
             </div>
           </div>
         </div>
         <div class="item">
-          <img src="/assets/example/bg_suburb.jpg">
+          <img src="<?php bloginfo('template_directory'); ?>/images/2.jpg">
           <div class="container">
             <div class="carousel-caption">
-              <h2>Interior Design</h2>
+              <h2>Körperbehandlungen</h2>
               <p></p>
             </div>
           </div>
         </div>
         <div class="item">
-          <img src="/assets/example/bg_6.jpg">
+          <img src="<?php bloginfo('template_directory'); ?>/images/3.jpg">
           <div class="container">
             <div class="carousel-caption">
-              <h2>Renovations &amp; Adaptive Re-use</h2>
+              <h2>Massagen</h2>
               <p></p>
             </div>
           </div>
-        </div>       
+        </div> 
+        <div class="item">
+          <img src="<?php bloginfo('template_directory'); ?>/images/3.jpg">
+          <div class="container">
+            <div class="carousel-caption">
+              <h2>Zusatzbehandlungen</h2>
+              <p></p>
+            </div>
+          </div>
+        </div>      
       </div><!-- /.carousel-inner -->
-      <div class="logo">The Firm</div> 
+      <div class="logo">Kosmetikstudio<br>Beautycode<br>Stuttgart<br>0711 46905052</div> 
       <!-- Controls -->
       <a class="left carousel-control" href="#myCarousel" data-slide="prev">
-        <span class="glyphicon glyphicon-chevron-left"></span>
+        <span class="navi-icons"></span>
       </a>
       <a class="right carousel-control" href="#myCarousel" data-slide="next">
-        <span class="glyphicon glyphicon-chevron-right"></span>
+        <span class="navi-icons"></span>
       </a>  
     </div>
     <!-- /.carousel -->
@@ -105,20 +114,20 @@
       <div class="collapse navbar-collapse">
         <ul class="nav navbar-nav nav-justified">
           <li><a href="#section1">Home</a></li>
-          <li><a href="#section2">Profile</a></li>
+          <li><a href="#section2">Über uns</a></li>
           <li class="dropdown">
-            <a href="#section3" class="dropdown-toggle" data-toggle="dropdown">Projects <b class="caret"></b></a>
+            <a href="#sectionBehandlungen" class="dropdown-toggle" data-toggle="dropdown">Behandlungen <b class="caret"></b></a>
             <ul class="dropdown-menu">
-              <li><a href="#">Academic</a></li>
-              <li><a href="#">Commercial</a></li>
-              <li><a href="#">Financial</a></li>
-              <li><a href="#">Interior Design</a></li>
-              <li><a href="#">Medical</a></li>
-              <li><a href="#">Religious</a></li>
+              <li><a href="#">Gesichtsbehandlungen</a></li>
+              <li><a href="#">Körperbehandlungen</a></li>
+              <li><a href="#">Massagen</a></li>
+              <li><a href="#">Zusatzbehandlungen</a></li>
+              <li><a href="#">Hand und Fuß</a></li>
+              <li><a href="#">Haarentfernung</a></li>
             </ul>
           </li>
-          <li><a href="#section4">Location</a></li>
-          <li><a href="#section5">Contact</a></li>
+          <li><a href="#section4">Wo sind wir?</a></li>
+          <li><a href="#section5">Kontakt</a></li>
         </ul>
       </div><!--/.nav-collapse -->
     </div><!--/.container -->
@@ -130,11 +139,11 @@
 <div class="container">
   <div class="col-sm-10 col-sm-offset-1">
     <div class="page-header text-center">
-      <h1>Since 1923</h1>
+      <h1>beautycode<br>ihr Ruhepol in Stuttgart</h1>
     </div>
     
     <p class="lead text-center"> 
-      The Firm has been providing Professional Design Services in the England area since 1923.
+      The Firm has been providing Professional Cosmetic and Beauty Services in the Stuttgart since 2011.
     </p> 
     
     <hr>
@@ -154,25 +163,19 @@
    
 <div class="row">
   	<div class="col-sm-10 col-sm-offset-1">
-      <h1>Profile</h1>
+      <h1>Über uns</h1>
       
       <hr>
      
-      <p>
-	  The Firm has had a great deal of experience and is highly regarded for its expertise in the areas of design, construction administration, construction management, tight cost control and scheduling.
-	  </p> 
-      <p>
-	  We have been involved in a wide range of building projects, including college facilities, banks, schools, nursing homes, office buildings, churches, industrial buildings and major urban development projects.
-      </p> 
-      <p>
-	  The various projects have included new construction, renovation and adaptive re-use as a way of providing new space for the various clients. Tessier Associates provides in-house programming, master planning, architectural design, construction documentation, project administration and interior design services. Sustainable design, as appropriate for each client, is incorporated in cost effective ways to benefit the long term value of the buildings created by the firm.
-	  </p> 
-      <p>
-	  Together with selected consultants, The Firm provides complete professional services including landscape architecture, structural engineering, electrical and mechanical engineering and site planning.
-	  </p> 
-      
-      <hr>
-      
+      <p>Mein name ist <b>Josipa Juric</b> und ich bin staatlich anerkannte Kosmetikerin. 
+        Egal, ob für ein Kurz-Programm während der Mittagspause oder einen 
+        Kurz-Urlaub mit Behandlungen vom Kopf bis zu den Füßen, ich freue mich auf Ihren Besuch.
+        Bei warmem Licht und wohliger Entspannungsmusik genießen Sie Behandlungen, 
+        die Ihre Seele streicheln, den Körper formen und die Haut regenerieren.<br><br>
+        <b>Genießen Sie den Aufenthalt bei uns!</b><br><br><br>
+        <b>Wir verwenden Thalago Produkte:</b><br><br>
+        Seit über 40 Jahren ist THALGO die unbestrittene Größe auf dem Gebiet maritimer Pflege. Profitieren Sie von der Erfahrung echter Pflegeexperten und erleben Sie eine individuelle, für Sie zusammengestellte Gesichtsbehandlung, denn Meereskosmetik-Produkte arbeiten im Einklang mit der Haut und entsprechen deren physiologischen Abläufen.</p>
+	    
       <div class="divider"></div>
       
   	</div><!--/col-->
@@ -181,10 +184,10 @@
 <div class="divider"></div>
   
 <section class="bg-3">
-  <div class="col-sm-6 col-sm-offset-3 text-center"><h2 style="padding:20px;background-color:rgba(5,5,5,.8)">Clients &amp; Partners</h2></div>
+  <div class="col-sm-6 col-sm-offset-3 text-center"><h2 style="padding:20px;background-color:rgba(5,5,5,.8)">Behandlungen</h2></div>
 </section>
   
-<div class="divider" id="section3"></div>
+<div class="divider" id="sectionBehandlungen"></div>
   
 <div class="bg-4">
   <div class="container">
@@ -192,10 +195,9 @@
 	   <div class="col-sm-4 col-xs-6">
       
         <div class="panel panel-default">
-          <div class="panel-thumbnail"><a href="#" title="Renovations"><img src="//placehold.it/600x400/444/F8F8F8" class="img-responsive"></a></div>
+          <div class="panel-thumbnail"><a href="#" title="Gesichtsbehandlungen"><img src="<?php bloginfo('template_directory'); ?>/images/gesichtsbehandlungen.png" class="img-responsive"></a></div>
           <div class="panel-body">
-            <p>Renovations</p>
-            <p></p>
+            <p>Gesichtsbehandlungen</p>
 
           </div>
         </div><!--/panel-->
@@ -204,10 +206,9 @@
       <div class="col-sm-4 col-xs-6">
       
       	<div class="panel panel-default">
-          <div class="panel-thumbnail"><a href="#" title="Academic Institutions"><img src="//placehold.it/600x400/454545/FFF" class="img-responsive"></a></div>
+          <div class="panel-thumbnail"><a href="#" title="Körperbehandlungen"><img src="<?php bloginfo('template_directory'); ?>/images/koerperbehandlungen.png" class="img-responsive"></a></div>
           <div class="panel-body">
-            <p>Academic Institutions</p>
-            <p></p>
+            <p>Körperbehandlungen</p>
             
           </div>
         </div><!--/panel--> 
@@ -216,11 +217,9 @@
       <div class="col-sm-4 col-xs-6">
       
       	<div class="panel panel-default">
-          <div class="panel-thumbnail"><a href="#" title="Interiors"><img src="//placehold.it/600x400/555/F2F2F2" class="img-responsive"></a></div>
+          <div class="panel-thumbnail"><a href="#" title="Massagen"><img src="<?php bloginfo('template_directory'); ?>/images/massage.png" class="img-responsive"></a></div>
           <div class="panel-body">
-            <p>Interiors</p>
-            <p></p>
-            
+            <p>Massagen</p>            
           </div>
         </div><!--/panel--> 
 
@@ -229,41 +228,16 @@
       <div class="col-sm-4 col-xs-6">
       
       	<div class="panel panel-default">
-          <div class="panel-thumbnail"><a href="#" title="New Construction"><img src="//placehold.it/600x400/555/FFF" class="img-responsive"></a></div>
+          <div class="panel-thumbnail"><a href="#" title="New Construction"><img src="<?php bloginfo('template_directory'); ?>/images/zusatz.png" class="img-responsive"></a></div>
           <div class="panel-body">
-            <p>New Construction</p>
+            <p>Zusatz Behandlungen</p>
             <p></p>
             
           </div>
         </div><!--/panel--> 
 
       </div><!--/col--> 
-      
-      <div class="col-sm-4 col-xs-6">
-      
-      	<div class="panel panel-default">
-          <div class="panel-thumbnail"><a href="#" title="Site Planning"><img src="//placehold.it/600x400/555/EEE" class="img-responsive"></a></div>
-          <div class="panel-body">
-            <p>Site Planning</p>
-            <p></p>
-            
-          </div>
-        </div><!--/panel--> 
-
-      </div><!--/col--> 
-      
-      <div class="col-sm-4 col-xs-6">
-      
-      	<div class="panel panel-default">
-          <div class="panel-thumbnail"><a href="#" title="Churches"><img src="//placehold.it/600x400/666/F4F4F4" class="img-responsive"></a></div>
-          <div class="panel-body">
-            <p>Churches</p>
-            <p></p>
-            
-          </div>
-        </div><!--/panel--> 
-
-      </div><!--/col--> 
+    
       
 	</div><!--/row-->
   </div><!--/container-->
@@ -279,7 +253,7 @@
 <div class="row">
   
   <div class="col-sm-10 col-sm-offset-1">
-      <h1>Location</h1>
+      <h1>Wo sind wir?</h1>
   </div>   
        
   <div id="map-canvas"></div>
@@ -290,16 +264,16 @@
   <div class="col-sm-3 pull-right">
 
       <address>
-        The Firm, Inc.<br>
+        beautycode Stuttgart<br>
         <span id="map-input">
-        1500 Main Street<br>
-        Springfield, MA 01115</span><br>
-        P: (413) 700-5999
+        Haußmannstraße 141<br>
+        70188 Stuttgart</span><br>
+        0711 46905052
       </address>
     
       <address>
-        <strong>Email Us</strong><br>
-        <a href="mailto:#">first.last@example.com</a>
+        <strong>Email an uns</strong><br>
+        <a href="mailto:#">info@beautycode-stuttgart.de</a>
       </address>          
   </div>
   
@@ -315,13 +289,13 @@
       
       <div class="row form-group">
         <div class="col-md-12">
-        <h1>Contact Us</h1>        
+        <h1>Kontaktieren Sie uns</h1>        
         </div>
         <div class="col-xs-4">
-          <input type="text" class="form-control" id="firstName" name="name" placeholder="Your Name">
+          <input type="text" class="form-control" id="firstName" name="name" placeholder="Ihr Name">
         </div>
         <div class="col-xs-6">
-          <input type="text" class="form-control" id="organization" name="organization" placeholder="Company or Organization">
+          <input type="text" class="form-control" id="organization" name="organization" placeholder="Firma(Optional)">
         </div>
       </div>
       <div class="row form-group">
@@ -329,17 +303,17 @@
           <input type="text" class="form-control" name="email" placeholder="Email">
           </div>
           <div class="col-xs-5">
-          <input type="text" class="form-control" name="phone" placeholder="Phone">
+          <input type="text" class="form-control" name="phone" placeholder="Telefon">
           </div>
       </div>
       <div class="row form-group">
           <div class="col-xs-10">
-            <textarea class="form-control" placeholder="Comments"></textarea>
+            <textarea class="form-control" placeholder="Nachricht"></textarea>
           </div>
       </div>
       <div class="row form-group">
           <div class="col-xs-10">
-            <button class="btn btn-default pull-right">Contact Us</button>
+            <button class="btn btn-default pull-right">Absenden</button>
           </div>
       </div>
     
@@ -347,18 +321,7 @@
   
 </div><!--/row-->
   
-<div class="container">
-  	<div class="col-sm-8 col-sm-offset-2 text-center">
 
-      <ul class="list-inline center-block">
-        <li><a href="http://facebook.com/bootply"><img src="/assets/example/soc_fb.png"></a></li>
-        <li><a href="http://twitter.com/bootply"><img src="/assets/example/soc_tw.png"></a></li>
-        <li><a href="http://google.com/+bootply"><img src="/assets/example/soc_gplus.png"></a></li>
-        <li><a href="http://pinterest.com/in1"><img src="/assets/example/soc_pin.png"></a></li>
-      </ul>
-      
-  	</div><!--/col-->
-</div><!--/container-->
   
 </div><!--/wrap-->
 
@@ -401,7 +364,7 @@
 
 
 	<!-- script references -->
-		<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.2/jquery.min.js"></script>
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.2/jquery.min.js"></script>
 		<script src="<?php bloginfo('template_directory'); ?>/js/bootstrap.min.js"></script>
 		<script src="http://maps.googleapis.com/maps/api/js?sensor=false&extension=.js&output=embed"></script>
 		<script src="<?php bloginfo('template_directory'); ?>/js/scripts.js"></script>

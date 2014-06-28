@@ -8,14 +8,6 @@ body {
   font-family: 'Open Sans', sans-serif;
 }
 
-
-.glyphicon-chevron-left:before {
-    content: url("http://beautycode-stuttgart.de/wp-content/themes/bc/images/left.png");
-}
-.glyphicon-chevron-right:before {
-    content: url("http://beautycode-stuttgart.de/wp-content/themes/bc/images/right.png");
-}
-
 .row {
   margin-left:0px;
   margin-right:0px;
@@ -107,10 +99,10 @@ h1 {
 }
 
 .logo {
-  font-size:45px;
+  font-size:40px;
   position:absolute;
   z-index:1200;
-  color:#ffffff;
+  color:#333;
   top:70px;
   text-align:center;
   width:100%;
@@ -233,7 +225,7 @@ section {
 }
 
 .bg-3 {
-	background: url('http://beautycode-stuttgart.de/wp-content/themes/bc/images/malediven.jpg') no-repeat center center fixed; 
+	background: url('http://www.bootply.com/assets/example/bg_blueplane.jpg') no-repeat center center fixed; 
     -webkit-background-size: cover;
   	-moz-background-size: cover;
   	-o-background-size: cover;
