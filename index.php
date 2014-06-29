@@ -45,9 +45,10 @@
     <div id="myCarousel" class="carousel slide">
       <!-- Indicators -->
       <ol class="carousel-indicators">
-        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="0"></li>
         <li data-target="#myCarousel" data-slide-to="1"></li>
         <li data-target="#myCarousel" data-slide-to="2"></li>
+        <li data-target="#myCarousel" data-slide-to="3"></li>
       </ol>
       <div class="carousel-inner">
         <div class="item active">
@@ -78,7 +79,7 @@
           </div>
         </div> 
         <div class="item">
-          <img src="<?php bloginfo('template_directory'); ?>/images/3.jpg">
+          <img src="<?php bloginfo('template_directory'); ?>/images/4.jpg">
           <div class="container">
             <div class="carousel-caption">
               <h2>Zusatzbehandlungen</h2>
@@ -88,13 +89,16 @@
         </div>      
       </div><!-- /.carousel-inner -->
       <div class="logo">Kosmetikstudio<br>Beautycode<br>Stuttgart<br>0711 46905052</div> 
+
       <!-- Controls -->
-      <a class="left carousel-control" href="#myCarousel" data-slide="prev">
-        <span class="navi-icons"></span>
+      <a class="carousel-control left" data-slide="prev" href="#myCarousel">
+          <i class="glyphicon glyphicon-chevron-left"></i>
       </a>
-      <a class="right carousel-control" href="#myCarousel" data-slide="next">
-        <span class="navi-icons"></span>
-      </a>  
+      <a class="carousel-control right" data-slide="next" href="#myCarousel">
+          <i class="glyphicon glyphicon-chevron-right"></i>
+      </a>
+
+  
     </div>
     <!-- /.carousel -->
   
@@ -195,7 +199,7 @@
 	   <div class="col-sm-4 col-xs-6">
       
         <div class="panel panel-default">
-          <div class="panel-thumbnail"><a href="#" title="Gesichtsbehandlungen"><img src="<?php bloginfo('template_directory'); ?>/images/gesichtsbehandlungen.png" class="img-responsive"></a></div>
+          <div class="panel-thumbnail"><a href="#sectionGesicht" title="Gesichtsbehandlungen"><img src="<?php bloginfo('template_directory'); ?>/images/gesichtsbehandlungen.png" class="img-responsive"></a></div>
           <div class="panel-body">
             <p>Gesichtsbehandlungen</p>
 
@@ -230,8 +234,7 @@
       	<div class="panel panel-default">
           <div class="panel-thumbnail"><a href="#" title="New Construction"><img src="<?php bloginfo('template_directory'); ?>/images/zusatz.png" class="img-responsive"></a></div>
           <div class="panel-body">
-            <p>Zusatz Behandlungen</p>
-            <p></p>
+           
             
           </div>
         </div><!--/panel--> 
@@ -242,6 +245,78 @@
 	</div><!--/row-->
   </div><!--/container-->
 </div>
+
+
+
+<div class="divider" id="sectionGesicht"></div>
+   
+<div class="row">
+
+    <div class="col-sm-12">
+      <h1>Gesichtsbehandlungen</h1>
+      <div class="divider"></div>
+    </div><!--/col-->
+
+</row>
+
+<div class="row">
+
+      <h3>Basispflege</h3>
+
+      <div class="col-sm-3">
+        <h4>Kurzbehandlung zum Kennenlernen</h4>
+        <p>Reinugung, Peeling, Massage, Maske, abschließende Pflege<br>Dauer ca. 45 min.</p>
+      </div><!--/col-->
+
+      <div class="col-sm-1">
+        <h4>43,00€</h4>
+      </div><!--/col-->
+
+
+
+    </div><!--/col-->
+
+    <div class="col-sm-4">
+      <h3>Intensivpflege</h3>
+    </div><!--/col-->
+
+    <div class="col-sm-4">
+      <h3>Anti Age Konzeptpflege</h3>
+    </div><!--/col-->
+
+</row>
+<div class="divider"></div>
+<div class="row">
+
+     <div class="col-sm-3">
+      <h4>Kurzbehandlung zum Kennenlernen</h4>
+      <p>Reinugung, Peeling, Massage, Maske, abschließende Pflege<br>Dauer ca. 45 min.</p>
+
+    </div><!--/col-->
+    <div class="col-sm-1">
+      <h4>43,00€</h4>
+    </div><!--/col-->
+
+    <div class="col-sm-4">
+      <h3>Intensivpflege</h3>
+    </div><!--/col-->
+
+    <div class="col-sm-4">
+      <h3>Anti Age Konzeptpflege</h3>
+    </div><!--/col-->
+
+</row>
+
+
+</div><!--/container-->
+
+
+
+
+
+</div>
+
+
 
 <div class="divider" id="section4"></div>
 

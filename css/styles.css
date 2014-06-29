@@ -9,12 +9,6 @@ body {
 }
 
 
-.glyphicon-chevron-left:before {
-    content: url("http://beautycode-stuttgart.de/wp-content/themes/bc/images/left.png");
-}
-.glyphicon-chevron-right:before {
-    content: url("http://beautycode-stuttgart.de/wp-content/themes/bc/images/right.png");
-}
 
 .row {
   margin-left:0px;

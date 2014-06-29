@@ -1,4 +1,4 @@
-$('.carousel').carousel({interval:false});
+$('.carousel').carousel({interval:5000});
 
 /* affix the navbar after scroll below header */
 $('#nav').affix({
@@ -49,7 +49,7 @@ $('#modalCarousel').on('slid.bs.carousel', function () {
   $('.modal-title').html($(this).find('.active').attr("title"));
 })
 
-/* when clicking a thumbnail */
+/* when clicking a thumbnail 
 $('.panel-thumbnail>a').click(function(e){
   
     e.preventDefault();
@@ -61,7 +61,7 @@ $('.panel-thumbnail>a').click(function(e){
   	return false;
 });
 
-
+*/
 
 
 
