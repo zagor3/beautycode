@@ -31,6 +31,7 @@
 			<script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
 		<![endif]-->
 		<link href="<?php bloginfo('template_directory'); ?>/css/styles.css" rel="stylesheet">
+    <link href="<?php bloginfo('template_directory'); ?>/css/custom.css" rel="stylesheet">
 	</head>
 
 <body>
@@ -248,67 +249,93 @@
 
 
 
-<div class="divider" id="sectionGesicht"></div>
    
-<div class="row">
+<section class="bg-4" id="sectionGesicht">
 
-    <div class="col-sm-12">
-      <h1>Gesichtsbehandlungen</h1>
-      <div class="divider"></div>
+    <div class="container">
+      <div class="col-sm-4 col-xs-6 product-box">
+        <div class="panel panel-box">
+             <div class="catimage"><img src="<?php bloginfo('template_directory'); ?>/images/gesichtsbehandlungen.png" class="cat-img-responsive"></div>
+             <div class="catheader"><h3>Gesichtsbehandlungen</h3></div>                  
+        </div>        
+      </div>
+      
+      <div class="col-sm-4 col-xs-6 product-box">
+        <div class="panel panel-box">
+            <product>
+                test <br> <span>€ 66,26</span>
+            </product>
+            
+        </div>        
+      </div>
+
+      <div class="col-sm-4 col-xs-6 product-box">
+        <div class="panel panel-box">
+            <product>
+                test <br> <span>€ 66,26</span>
+            </product>
+            
+        </div>        
+      </div>
+
+      <div class="col-sm-4 col-xs-6 product-box">
+        <div class="panel panel-box">
+            <product>
+                test <br> <span>€ 66,26</span>
+            </product>
+            
+        </div>        
+      </div>
+
+      <div class="col-sm-4 col-xs-6 product-box">
+        <div class="panel panel-box">
+            <product>
+                test <br> <span>€ 66,26</span>
+            </product>
+            
+        </div>        
+      </div>
+
+      <div class="col-sm-4 col-xs-6 product-box">
+        <div class="panel panel-box">
+            <product>
+                test <br> <span>€ 66,26</span>
+            </product>
+            
+        </div>        
+      </div>
+
+      <div class="col-sm-4 col-xs-6 product-box">
+        <div class="panel panel-box">
+            <product>
+                test <br> <span>€ 66,26</span>
+            </product>
+            
+        </div>        
+      </div>
+
+      <div class="col-sm-4 col-xs-6 product-box">
+        <div class="panel panel-box">
+            <product>
+                test <br> <span>€ 66,26</span>
+            </product>
+            
+        </div>        
+      </div>
+
+      <div class="col-sm-4 col-xs-6 product-box">
+        <div class="panel panel-box">
+            <product>
+                test <br> <span>€ 66,26</span>
+            </product>
+            
+        </div>        
+      </div>
+      
     </div><!--/col-->
 
-</row>
+</section>
 
-<div class="row">
-
-      <h3>Basispflege</h3>
-
-      <div class="col-sm-3">
-        <h4>Kurzbehandlung zum Kennenlernen</h4>
-        <p>Reinugung, Peeling, Massage, Maske, abschließende Pflege<br>Dauer ca. 45 min.</p>
-      </div><!--/col-->
-
-      <div class="col-sm-1">
-        <h4>43,00€</h4>
-      </div><!--/col-->
-
-
-
-    </div><!--/col-->
-
-    <div class="col-sm-4">
-      <h3>Intensivpflege</h3>
-    </div><!--/col-->
-
-    <div class="col-sm-4">
-      <h3>Anti Age Konzeptpflege</h3>
-    </div><!--/col-->
-
-</row>
-<div class="divider"></div>
-<div class="row">
-
-     <div class="col-sm-3">
-      <h4>Kurzbehandlung zum Kennenlernen</h4>
-      <p>Reinugung, Peeling, Massage, Maske, abschließende Pflege<br>Dauer ca. 45 min.</p>
-
-    </div><!--/col-->
-    <div class="col-sm-1">
-      <h4>43,00€</h4>
-    </div><!--/col-->
-
-    <div class="col-sm-4">
-      <h3>Intensivpflege</h3>
-    </div><!--/col-->
-
-    <div class="col-sm-4">
-      <h3>Anti Age Konzeptpflege</h3>
-    </div><!--/col-->
-
-</row>
-
-
-</div><!--/container-->
 
 
 
