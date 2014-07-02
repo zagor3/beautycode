@@ -188,149 +188,113 @@
 
 <div class="divider"></div>
   
-<section class="bg-3">
+<section class="bg-3" id="sectionBehandlungen">
   <div class="col-sm-6 col-sm-offset-3 text-center"><h2 style="padding:20px;background-color:rgba(5,5,5,.8)">Behandlungen</h2></div>
 </section>
   
 <div class="divider" id="sectionBehandlungen"></div>
   
-<div class="bg-4">
-  <div class="container">
-	<div class="row">
-	   <div class="col-sm-4 col-xs-6">
-      
-        <div class="panel panel-default">
-          <div class="panel-thumbnail"><a href="#sectionGesicht" title="Gesichtsbehandlungen"><img src="<?php bloginfo('template_directory'); ?>/images/gesichtsbehandlungen.png" class="img-responsive"></a></div>
-          <div class="panel-body">
-            <p>Gesichtsbehandlungen</p>
-
-          </div>
-        </div><!--/panel-->
-      </div><!--/col-->
-      
-      <div class="col-sm-4 col-xs-6">
-      
-      	<div class="panel panel-default">
-          <div class="panel-thumbnail"><a href="#" title="Körperbehandlungen"><img src="<?php bloginfo('template_directory'); ?>/images/koerperbehandlungen.png" class="img-responsive"></a></div>
-          <div class="panel-body">
-            <p>Körperbehandlungen</p>
-            
-          </div>
-        </div><!--/panel--> 
-      </div><!--/col-->
-      
-      <div class="col-sm-4 col-xs-6">
-      
-      	<div class="panel panel-default">
-          <div class="panel-thumbnail"><a href="#" title="Massagen"><img src="<?php bloginfo('template_directory'); ?>/images/massage.png" class="img-responsive"></a></div>
-          <div class="panel-body">
-            <p>Massagen</p>            
-          </div>
-        </div><!--/panel--> 
-
-      </div><!--/col--> 
-      
-      <div class="col-sm-4 col-xs-6">
-      
-      	<div class="panel panel-default">
-          <div class="panel-thumbnail"><a href="#" title="New Construction"><img src="<?php bloginfo('template_directory'); ?>/images/zusatz.png" class="img-responsive"></a></div>
-          <div class="panel-body">
-           
-            
-          </div>
-        </div><!--/panel--> 
-
-      </div><!--/col--> 
-    
-      
-	</div><!--/row-->
-  </div><!--/container-->
-</div>
-
-
-
-   
 <section class="bg-4" id="sectionGesicht">
 
     <div class="container">
+      
       <div class="col-sm-4 col-xs-6 product-box">
         <div class="panel panel-box">
-             <div class="catimage"><img src="<?php bloginfo('template_directory'); ?>/images/gesichtsbehandlungen.png" class="cat-img-responsive"></div>
-             <div class="catheader"><h3>Gesichtsbehandlungen</h3></div>                  
+             <div class="catheader"><h4>Gesichtsbehandlungen</h4></div>        
+             <div class="catimage"><img src="<?php bloginfo('template_directory'); ?>/images/gesichtsbehandlungen.png" class="img-responsive catimage1"></div>
+        </div>        
+      </div>
+
+      <div class="col-sm-4 col-xs-6 product-box">
+        <div class="panel panel-box">
+            <product>
+                <p>Reinugung, Peeling, Massage, Maske, abschließende Pflege</p>
+                <h4>Kurzbehandlung zum Kennenlernen</h4> <br> <span>Dauer ca. 45 min.<br>€ 43,00</span>
+            </product>            
         </div>        
       </div>
       
       <div class="col-sm-4 col-xs-6 product-box">
         <div class="panel panel-box">
             <product>
-                test <br> <span>€ 66,26</span>
-            </product>
-            
+                <p>Reinugung, Peeling, Ausreinigung, Massage, Maske, abschließende Pflege</p>
+                <h4>Reinigungsbehandlung</h4> <br> <span>Dauer ca. 75 min.<br>€ 57,00</span>
+            </product>            
         </div>        
       </div>
 
       <div class="col-sm-4 col-xs-6 product-box">
         <div class="panel panel-box">
             <product>
-                test <br> <span>€ 66,26</span>
-            </product>
-            
+                <p>Spezialbehandlung mit einem  maritimen, intensiv Feuchtigkeit spendenden Wirkstoff-Mix</p>
+                <h4>Vitalisierende Hydra Maske </h4> <br> <span>Dauer ca. 75 min.<br>€ 94,00</span>
+            </product>            
         </div>        
       </div>
 
       <div class="col-sm-4 col-xs-6 product-box">
         <div class="panel panel-box">
             <product>
-                test <br> <span>€ 66,26</span>
-            </product>
-            
+                <p>Anti Age Spezialbehandlung</p>
+                <h4>Collagen</h4> <br> <span>Dauer ca. 45 min.<br>€ 43,00</span>
+            </product>            
         </div>        
       </div>
 
       <div class="col-sm-4 col-xs-6 product-box">
         <div class="panel panel-box">
             <product>
-                test <br> <span>€ 66,26</span>
-            </product>
-            
+                <p>Reinigung, Peeling, Maske, abschließende Pflege</p>
+                <h4>Reinigungsbehandlung</h4> <br> <span>Dauer ca. 75 min.<br>€ 57,00</span>
+            </product>            
         </div>        
       </div>
 
       <div class="col-sm-4 col-xs-6 product-box">
         <div class="panel panel-box">
             <product>
-                test <br> <span>€ 66,26</span>
-            </product>
-            
+                <p></p>
+                <h4></h4> <br> 
+                <span>Dauer ca. 45 min.
+                <br>€ 43,00</span>
+            </product>            
         </div>        
       </div>
 
       <div class="col-sm-4 col-xs-6 product-box">
         <div class="panel panel-box">
             <product>
-                test <br> <span>€ 66,26</span>
-            </product>
-            
+                <p>Kühlende Spezialbehandlung zur Beruhigung empfindlicher und zu Rötung neigender Haut</p>
+                <h4>Cold Marine Mask</h4><br> 
+                <span>Dauer ca. 75 min.
+                <br>€ 88,00</span>
+            </product>            
         </div>        
       </div>
 
       <div class="col-sm-4 col-xs-6 product-box">
         <div class="panel panel-box">
             <product>
-                test <br> <span>€ 66,26</span>
-            </product>
-            
+                <p></p>
+                <h4></h4> <br> 
+                <span>Dauer ca. 45 min.
+                <br>€ 43,00</span>
+            </product>            
         </div>        
       </div>
 
       <div class="col-sm-4 col-xs-6 product-box">
         <div class="panel panel-box">
             <product>
-                test <br> <span>€ 66,26</span>
-            </product>
-            
+                <p></p>
+                <h4></h4> <br> 
+                <span>Dauer ca. 45 min.
+                <br>€ 43,00</span>
+            </product>            
         </div>        
       </div>
+
+    
       
     </div><!--/col-->
 
@@ -338,10 +302,6 @@
 
 
 
-
-
-
-</div>
 
 
 
