@@ -90,16 +90,7 @@
         </div>      
       </div><!-- /.carousel-inner -->
       <div class="logo">Kosmetikstudio<br>Beautycode<br>Stuttgart<br>0711 46905052</div> 
-
-      <!-- Controls -->
-      <a class="carousel-control left" data-slide="prev" href="#myCarousel">
-          <i class="glyphicon glyphicon-chevron-left"></i>
-      </a>
-      <a class="carousel-control right" data-slide="next" href="#myCarousel">
-          <i class="glyphicon glyphicon-chevron-right"></i>
-      </a>
-
-  
+        
     </div>
     <!-- /.carousel -->
   
@@ -180,7 +171,9 @@
         <b>Genießen Sie den Aufenthalt bei uns!</b><br><br><br>
         <b>Wir verwenden Thalago Produkte:</b><br><br>
         Seit über 40 Jahren ist THALGO die unbestrittene Größe auf dem Gebiet maritimer Pflege. Profitieren Sie von der Erfahrung echter Pflegeexperten und erleben Sie eine individuelle, für Sie zusammengestellte Gesichtsbehandlung, denn Meereskosmetik-Produkte arbeiten im Einklang mit der Haut und entsprechen deren physiologischen Abläufen.</p>
-	    
+	       
+      <hr>
+
       <div class="divider"></div>
       
   	</div><!--/col-->
@@ -300,6 +293,217 @@
 
 </section>
 
+<section class="bg-4" id="sectionKoerper">
+
+    <div class="container">
+      
+      <div class="col-sm-4 col-xs-6 product-box">
+        <div class="panel panel-box">
+             <div class="catheader"><h4>Körperbehandlungen</h4></div>        
+             <div class="catimage"><img src="<?php bloginfo('template_directory'); ?>/images/koerperbehandlungen.png" class="img-responsive catimage1"></div>
+        </div>        
+      </div>
+
+      <div class="col-sm-4 col-xs-6 product-box">
+        <div class="panel panel-box">
+            <product>
+                <p>Reinugung, Peeling, Massage, Maske, abschließende Pflege</p>
+                <h4>Kurzbehandlung zum Kennenlernen</h4> <br> <span>Dauer ca. 45 min.<br>€ 43,00</span>
+            </product>            
+        </div>        
+      </div>
+      
+      <div class="col-sm-4 col-xs-6 product-box">
+        <div class="panel panel-box">
+            <product>
+                <p>Reinugung, Peeling, Ausreinigung, Massage, Maske, abschließende Pflege</p>
+                <h4>Reinigungsbehandlung</h4> <br> <span>Dauer ca. 75 min.<br>€ 57,00</span>
+            </product>            
+        </div>        
+      </div>
+
+      <div class="col-sm-4 col-xs-6 product-box">
+        <div class="panel panel-box">
+            <product>
+                <p>Spezialbehandlung mit einem  maritimen, intensiv Feuchtigkeit spendenden Wirkstoff-Mix</p>
+                <h4>Vitalisierende Hydra Maske </h4> <br> <span>Dauer ca. 75 min.<br>€ 94,00</span>
+            </product>            
+        </div>        
+      </div>
+
+      <div class="col-sm-4 col-xs-6 product-box">
+        <div class="panel panel-box">
+            <product>
+                <p>Anti Age Spezialbehandlung</p>
+                <h4>Collagen</h4> <br> <span>Dauer ca. 45 min.<br>€ 43,00</span>
+            </product>            
+        </div>        
+      </div>
+
+      <div class="col-sm-4 col-xs-6 product-box">
+        <div class="panel panel-box">
+            <product>
+                <p>Reinigung, Peeling, Maske, abschließende Pflege</p>
+                <h4>Reinigungsbehandlung</h4> <br> <span>Dauer ca. 75 min.<br>€ 57,00</span>
+            </product>            
+        </div>        
+      </div>
+
+      <div class="col-sm-4 col-xs-6 product-box">
+        <div class="panel panel-box">
+            <product>
+                <p></p>
+                <h4></h4> <br> 
+                <span>Dauer ca. 45 min.
+                <br>€ 43,00</span>
+            </product>            
+        </div>        
+      </div>
+
+      <div class="col-sm-4 col-xs-6 product-box">
+        <div class="panel panel-box">
+            <product>
+                <p>Kühlende Spezialbehandlung zur Beruhigung empfindlicher und zu Rötung neigender Haut</p>
+                <h4>Cold Marine Mask</h4><br> 
+                <span>Dauer ca. 75 min.
+                <br>€ 88,00</span>
+            </product>            
+        </div>        
+      </div>
+
+      <div class="col-sm-4 col-xs-6 product-box">
+        <div class="panel panel-box">
+            <product>
+                <p></p>
+                <h4></h4> <br> 
+                <span>Dauer ca. 45 min.
+                <br>€ 43,00</span>
+            </product>            
+        </div>        
+      </div>
+
+      <div class="col-sm-4 col-xs-6 product-box">
+        <div class="panel panel-box">
+            <product>
+                <p></p>
+                <h4></h4> <br> 
+                <span>Dauer ca. 45 min.
+                <br>€ 43,00</span>
+            </product>            
+        </div>        
+      </div>
+
+    
+      
+    </div><!--/col-->
+
+</section>
+
+<section class="bg-4" id="sectionMassage">
+
+    <div class="container">
+      
+      <div class="col-sm-4 col-xs-6 product-box">
+        <div class="panel panel-box">
+             <div class="catheader"><h4>Massagen</h4></div>        
+             <div class="catimage"><img src="<?php bloginfo('template_directory'); ?>/images/massage.png" class="img-responsive catimage1"></div>
+        </div>        
+      </div>
+
+      <div class="col-sm-4 col-xs-6 product-box">
+        <div class="panel panel-box">
+            <product>
+                <p>Reinugung, Peeling, Massage, Maske, abschließende Pflege</p>
+                <h4>Kurzbehandlung zum Kennenlernen</h4> <br> <span>Dauer ca. 45 min.<br>€ 43,00</span>
+            </product>            
+        </div>        
+      </div>
+      
+      <div class="col-sm-4 col-xs-6 product-box">
+        <div class="panel panel-box">
+            <product>
+                <p>Reinugung, Peeling, Ausreinigung, Massage, Maske, abschließende Pflege</p>
+                <h4>Reinigungsbehandlung</h4> <br> <span>Dauer ca. 75 min.<br>€ 57,00</span>
+            </product>            
+        </div>        
+      </div>
+
+      <div class="col-sm-4 col-xs-6 product-box">
+        <div class="panel panel-box">
+            <product>
+                <p>Spezialbehandlung mit einem  maritimen, intensiv Feuchtigkeit spendenden Wirkstoff-Mix</p>
+                <h4>Vitalisierende Hydra Maske </h4> <br> <span>Dauer ca. 75 min.<br>€ 94,00</span>
+            </product>            
+        </div>        
+      </div>
+
+      <div class="col-sm-4 col-xs-6 product-box">
+        <div class="panel panel-box">
+            <product>
+                <p>Anti Age Spezialbehandlung</p>
+                <h4>Collagen</h4> <br> <span>Dauer ca. 45 min.<br>€ 43,00</span>
+            </product>            
+        </div>        
+      </div>
+
+      <div class="col-sm-4 col-xs-6 product-box">
+        <div class="panel panel-box">
+            <product>
+                <p>Reinigung, Peeling, Maske, abschließende Pflege</p>
+                <h4>Reinigungsbehandlung</h4> <br> <span>Dauer ca. 75 min.<br>€ 57,00</span>
+            </product>            
+        </div>        
+      </div>
+
+      <div class="col-sm-4 col-xs-6 product-box">
+        <div class="panel panel-box">
+            <product>
+                <p></p>
+                <h4></h4> <br> 
+                <span>Dauer ca. 45 min.
+                <br>€ 43,00</span>
+            </product>            
+        </div>        
+      </div>
+
+      <div class="col-sm-4 col-xs-6 product-box">
+        <div class="panel panel-box">
+            <product>
+                <p>Kühlende Spezialbehandlung zur Beruhigung empfindlicher und zu Rötung neigender Haut</p>
+                <h4>Cold Marine Mask</h4><br> 
+                <span>Dauer ca. 75 min.
+                <br>€ 88,00</span>
+            </product>            
+        </div>        
+      </div>
+
+      <div class="col-sm-4 col-xs-6 product-box">
+        <div class="panel panel-box">
+            <product>
+                <p></p>
+                <h4></h4> <br> 
+                <span>Dauer ca. 45 min.
+                <br>€ 43,00</span>
+            </product>            
+        </div>        
+      </div>
+
+      <div class="col-sm-4 col-xs-6 product-box">
+        <div class="panel panel-box">
+            <product>
+                <p></p>
+                <h4></h4> <br> 
+                <span>Dauer ca. 45 min.
+                <br>€ 43,00</span>
+            </product>            
+        </div>        
+      </div>
+
+    
+      
+    </div><!--/col-->
+
+</section>
 
 
 

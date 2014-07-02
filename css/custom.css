@@ -61,6 +61,7 @@ product p {
 }
 
 .bg-3 {
+    background: none;
     min-height: 100px;
     color: #fff;
     padding-top: 0px;
