@@ -219,42 +219,36 @@
       <div class="col-sm-4 col-xs-6 product-box">
         <div class="panel panel-box">
             <product>
+                <p>Reinigung, Peeling, Ausreinigen,Augenbrauenkorrektur, Wirkstoff-konzentrat, Gesichts-, Hals- und Dekollete-Massage, Maske,abschließende Pflege, auf 
+Wunsch Tages Make-up
+</p>
+                <h4>Gesichtsbehandlung Classic</h4> <br> <span>Dauer ca. 75 min.<br>€ 57,00</span>
+            </product>            
+        </div>        
+      </div>
+
+
+      <div class="col-sm-4 col-xs-6 product-box">
+        <div class="panel panel-box">
+            <product>
+                <p>(für Jugendliche unter 18 Jahren) Reinigung, Peeling, Ausreinigen, Maske, abschließende Pflege</p>
+                <h4>Teenager Behandlung</h4> <br> 
+                <span>Dauer ca. 60 min.
+                <br>€ 33,00</span>
+            </product>            
+        </div>        
+      </div>
+
+      <div class="col-sm-4 col-xs-6 product-box">
+        <div class="panel panel-box">
+            <product>
                 <p>Spezialbehandlung mit einem  maritimen, intensiv Feuchtigkeit spendenden Wirkstoff-Mix</p>
                 <h4>Vitalisierende Hydra Maske </h4> <br> <span>Dauer ca. 75 min.<br>€ 94,00</span>
             </product>            
         </div>        
       </div>
 
-      <div class="col-sm-4 col-xs-6 product-box">
-        <div class="panel panel-box">
-            <product>
-                <p>Anti Age Spezialbehandlung</p>
-                <h4>Collagen</h4> <br> <span>Dauer ca. 45 min.<br>€ 43,00</span>
-            </product>            
-        </div>        
-      </div>
-
-      <div class="col-sm-4 col-xs-6 product-box">
-        <div class="panel panel-box">
-            <product>
-                <p>Reinigung, Peeling, Maske, abschließende Pflege</p>
-                <h4>Reinigungsbehandlung</h4> <br> <span>Dauer ca. 75 min.<br>€ 57,00</span>
-            </product>            
-        </div>        
-      </div>
-
-      <div class="col-sm-4 col-xs-6 product-box">
-        <div class="panel panel-box">
-            <product>
-                <p></p>
-                <h4></h4> <br> 
-                <span>Dauer ca. 45 min.
-                <br>€ 43,00</span>
-            </product>            
-        </div>        
-      </div>
-
-      <div class="col-sm-4 col-xs-6 product-box">
+  <div class="col-sm-4 col-xs-6 product-box">
         <div class="panel panel-box">
             <product>
                 <p>Kühlende Spezialbehandlung zur Beruhigung empfindlicher und zu Rötung neigender Haut</p>
@@ -265,13 +259,43 @@
         </div>        
       </div>
 
+        <div class="col-sm-4 col-xs-6 product-box">
+        <div class="panel panel-box">
+            <product>
+                <p>Behandlungssystem mit Algen, natürlichen Algen, zum Ausgleichen, Remineralisieren und Befeuchten </p>
+                <h4>Aquarell</h4> <br> <span>Dauer ca. 60 min.<br>€ 77,00</span>
+            </product>            
+        </div>        
+      </div
+
       <div class="col-sm-4 col-xs-6 product-box">
         <div class="panel panel-box">
             <product>
-                <p></p>
-                <h4></h4> <br> 
-                <span>Dauer ca. 45 min.
-                <br>€ 43,00</span>
+                <p>Energetisierende Spezialbehandlung mit dem Complexe O2 Protect für mehr Frische und Leuchtkraft der Haut
+</p>
+                <h4>O2 Protect</h4> <br> 
+                <span>Dauer ca. 60 min.
+                <br>€ 48,00</span>
+            </product>            
+        </div>        
+      </div>
+
+          <div class="col-sm-4 col-xs-6 product-box">
+        <div class="panel panel-box">
+            <product>
+                <p>Exclusive Anti Age Behandlung für den Mann</p>
+                <h4>Ocean Care</h4> <br> 
+                <span>Dauer ca. 75 min.
+                <br>€ 78,00</span>
+            </product>            
+        </div>        
+      </div>
+      
+      <div class="col-sm-4 col-xs-6 product-box">
+        <div class="panel panel-box">
+            <product>
+                <p>Anti Age Spezialbehandlung gegen Fältchen und Falten</p>
+                <h4>Collagen</h4> <br> <span>Dauer ca. 75 min.<br>€ 89,00</span>
             </product>            
         </div>        
       </div>
@@ -279,13 +303,25 @@
       <div class="col-sm-4 col-xs-6 product-box">
         <div class="panel panel-box">
             <product>
-                <p></p>
-                <h4></h4> <br> 
-                <span>Dauer ca. 45 min.
-                <br>€ 43,00</span>
+                <p>Anti Age Spezialbehandlung gegen sichtbare Falten</p>
+                <h4>Hyaluron</h4> <br> 
+                <span>Dauer ca. 75 min.
+                <br>€ 104,00</span>
             </product>            
         </div>        
       </div>
+
+      <div class="col-sm-4 col-xs-6 product-box">
+        <div class="panel panel-box">
+            <product>
+                <p>Anti Age Spezialbehandlung gegen sichtbare Falten und schlaffe Haut</p>
+                <h4>Silicium</h4> <br> 
+                <span>Dauer ca. 90 min.
+                <br>€ 107,00</span>
+            </product>            
+        </div>        
+      </div>
+
 
     
       
