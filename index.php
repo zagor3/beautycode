@@ -186,364 +186,46 @@
 </section>
   
 <div class="divider" id="sectionBehandlungen"></div>
-  
-<section class="bg-4" id="sectionGesicht">
+ 
+<div id="products"></div> 
 
-    <div class="container">
-      
-      <div class="col-sm-4 col-xs-6 product-box">
-        <div class="panel panel-box">
-             <div class="catheader"><h4>Gesichtsbehandlungen</h4></div>        
-             <div class="catimage"><img src="<?php bloginfo('template_directory'); ?>/images/gesichtsbehandlungen.png" class="img-responsive catimage1"></div>
-        </div>        
-      </div>
+<script id="product_template" type="text/html">
 
-      <div class="col-sm-4 col-xs-6 product-box">
-        <div class="panel panel-box">
-            <product>
-                <p>Reinugung, Peeling, Massage, Maske, abschließende Pflege</p>
-                <h4>Kurzbehandlung zum Kennenlernen</h4> <br> <span>Dauer ca. 45 min.<br>€ 43,00</span>
-            </product>            
-        </div>        
-      </div>
-      
-      <div class="col-sm-4 col-xs-6 product-box">
-        <div class="panel panel-box">
-            <product>
-                <p>Reinugung, Peeling, Ausreinigung, Massage, Maske, abschließende Pflege</p>
-                <h4>Reinigungsbehandlung</h4> <br> <span>Dauer ca. 75 min.<br>€ 57,00</span>
-            </product>            
-        </div>        
-      </div>
+{{#katalog}}
+    <section class="bg-4" id="section{{name}}">
 
-      <div class="col-sm-4 col-xs-6 product-box">
-        <div class="panel panel-box">
-            <product>
-                <p>Reinigung, Peeling, Ausreinigen,Augenbrauenkorrektur, Wirkstoff-konzentrat, Gesichts-, Hals- und Dekollete-Massage, Maske,abschließende Pflege, auf 
-Wunsch Tages Make-up
-</p>
-                <h4>Gesichtsbehandlung Classic</h4> <br> <span>Dauer ca. 75 min.<br>€ 57,00</span>
-            </product>            
-        </div>        
-      </div>
+        <div class="container">
+          
+
+          
+              <div class="col-sm-4 col-xs-6 product-box">
+                <div class="panel panel-box">
+                     <div class="catheader"><h4>{{name}}</h4></div>        
+                     <div class="catimage"><img src="<?php bloginfo('template_directory'); ?>/images/{{bild}}" class="img-responsive catimage1"></div>
+                </div>        
+              </div>
+        
+
+          {{#behandlungen}}    
+            <div class="col-sm-4 col-xs-6 product-box">
+              <div class="panel panel-box">
+                  <product>
+                      <p>{{text}}</p>
+                      <h4>{{titel}}</h4> <br> <span>Dauer ca. {{dauer}} min.<br>€ {{preis}}</span>
+                  </product>            
+              </div>        
+            </div>
+          {{/behandlungen}} 
 
 
-      <div class="col-sm-4 col-xs-6 product-box">
-        <div class="panel panel-box">
-            <product>
-                <p>(für Jugendliche unter 18 Jahren) Reinigung, Peeling, Ausreinigen, Maske, abschließende Pflege</p>
-                <h4>Teenager Behandlung</h4> <br> 
-                <span>Dauer ca. 60 min.
-                <br>€ 33,00</span>
-            </product>            
-        </div>        
-      </div>
+        </div><!--/container-->
 
-      <div class="col-sm-4 col-xs-6 product-box">
-        <div class="panel panel-box">
-            <product>
-                <p>Spezialbehandlung mit einem  maritimen, intensiv Feuchtigkeit spendenden Wirkstoff-Mix</p>
-                <h4>Vitalisierende Hydra Maske </h4> <br> <span>Dauer ca. 75 min.<br>€ 94,00</span>
-            </product>            
-        </div>        
-      </div>
+    </section>
+{{/katalog}}
 
-  <div class="col-sm-4 col-xs-6 product-box">
-        <div class="panel panel-box">
-            <product>
-                <p>Kühlende Spezialbehandlung zur Beruhigung empfindlicher und zu Rötung neigender Haut</p>
-                <h4>Cold Marine Mask</h4><br> 
-                <span>Dauer ca. 75 min.
-                <br>€ 88,00</span>
-            </product>            
-        </div>        
-      </div>
+</script>
 
-        <div class="col-sm-4 col-xs-6 product-box">
-        <div class="panel panel-box">
-            <product>
-                <p>Behandlungssystem mit Algen, natürlichen Algen, zum Ausgleichen, Remineralisieren und Befeuchten </p>
-                <h4>Aquarell</h4> <br> <span>Dauer ca. 60 min.<br>€ 77,00</span>
-            </product>            
-        </div>        
-      </div
-
-      <div class="col-sm-4 col-xs-6 product-box">
-        <div class="panel panel-box">
-            <product>
-                <p>Energetisierende Spezialbehandlung mit dem Complexe O2 Protect für mehr Frische und Leuchtkraft der Haut
-</p>
-                <h4>O2 Protect</h4> <br> 
-                <span>Dauer ca. 60 min.
-                <br>€ 48,00</span>
-            </product>            
-        </div>        
-      </div>
-
-          <div class="col-sm-4 col-xs-6 product-box">
-        <div class="panel panel-box">
-            <product>
-                <p>Exclusive Anti Age Behandlung für den Mann</p>
-                <h4>Ocean Care</h4> <br> 
-                <span>Dauer ca. 75 min.
-                <br>€ 78,00</span>
-            </product>            
-        </div>        
-      </div>
-      
-      <div class="col-sm-4 col-xs-6 product-box">
-        <div class="panel panel-box">
-            <product>
-                <p>Anti Age Spezialbehandlung gegen Fältchen und Falten</p>
-                <h4>Collagen</h4> <br> <span>Dauer ca. 75 min.<br>€ 89,00</span>
-            </product>            
-        </div>        
-      </div>
-
-      <div class="col-sm-4 col-xs-6 product-box">
-        <div class="panel panel-box">
-            <product>
-                <p>Anti Age Spezialbehandlung gegen sichtbare Falten</p>
-                <h4>Hyaluron</h4> <br> 
-                <span>Dauer ca. 75 min.
-                <br>€ 104,00</span>
-            </product>            
-        </div>        
-      </div>
-
-      <div class="col-sm-4 col-xs-6 product-box">
-        <div class="panel panel-box">
-            <product>
-                <p>Anti Age Spezialbehandlung gegen sichtbare Falten und schlaffe Haut</p>
-                <h4>Silicium</h4> <br> 
-                <span>Dauer ca. 90 min.
-                <br>€ 107,00</span>
-            </product>            
-        </div>        
-      </div>
-
-
-    
-      
-    </div><!--/col-->
-
-</section>
-
-<section class="bg-4" id="sectionKoerper">
-
-    <div class="container">
-      
-      <div class="col-sm-4 col-xs-6 product-box">
-        <div class="panel panel-box">
-             <div class="catheader"><h4>Körperbehandlungen</h4></div>        
-             <div class="catimage"><img src="<?php bloginfo('template_directory'); ?>/images/koerperbehandlungen.png" class="img-responsive catimage1"></div>
-        </div>        
-      </div>
-
-      <div class="col-sm-4 col-xs-6 product-box">
-        <div class="panel panel-box">
-            <product>
-                <p>Reinugung, Peeling, Massage, Maske, abschließende Pflege</p>
-                <h4>Kurzbehandlung zum Kennenlernen</h4> <br> <span>Dauer ca. 45 min.<br>€ 43,00</span>
-            </product>            
-        </div>        
-      </div>
-      
-      <div class="col-sm-4 col-xs-6 product-box">
-        <div class="panel panel-box">
-            <product>
-                <p>Reinugung, Peeling, Ausreinigung, Massage, Maske, abschließende Pflege</p>
-                <h4>Reinigungsbehandlung</h4> <br> <span>Dauer ca. 75 min.<br>€ 57,00</span>
-            </product>            
-        </div>        
-      </div>
-
-      <div class="col-sm-4 col-xs-6 product-box">
-        <div class="panel panel-box">
-            <product>
-                <p>Spezialbehandlung mit einem  maritimen, intensiv Feuchtigkeit spendenden Wirkstoff-Mix</p>
-                <h4>Vitalisierende Hydra Maske </h4> <br> <span>Dauer ca. 75 min.<br>€ 94,00</span>
-            </product>            
-        </div>        
-      </div>
-
-      <div class="col-sm-4 col-xs-6 product-box">
-        <div class="panel panel-box">
-            <product>
-                <p>Anti Age Spezialbehandlung</p>
-                <h4>Collagen</h4> <br> <span>Dauer ca. 45 min.<br>€ 43,00</span>
-            </product>            
-        </div>        
-      </div>
-
-      <div class="col-sm-4 col-xs-6 product-box">
-        <div class="panel panel-box">
-            <product>
-                <p>Reinigung, Peeling, Maske, abschließende Pflege</p>
-                <h4>Reinigungsbehandlung</h4> <br> <span>Dauer ca. 75 min.<br>€ 57,00</span>
-            </product>            
-        </div>        
-      </div>
-
-      <div class="col-sm-4 col-xs-6 product-box">
-        <div class="panel panel-box">
-            <product>
-                <p></p>
-                <h4></h4> <br> 
-                <span>Dauer ca. 45 min.
-                <br>€ 43,00</span>
-            </product>            
-        </div>        
-      </div>
-
-      <div class="col-sm-4 col-xs-6 product-box">
-        <div class="panel panel-box">
-            <product>
-                <p>Kühlende Spezialbehandlung zur Beruhigung empfindlicher und zu Rötung neigender Haut</p>
-                <h4>Cold Marine Mask</h4><br> 
-                <span>Dauer ca. 75 min.
-                <br>€ 88,00</span>
-            </product>            
-        </div>        
-      </div>
-
-      <div class="col-sm-4 col-xs-6 product-box">
-        <div class="panel panel-box">
-            <product>
-                <p></p>
-                <h4></h4> <br> 
-                <span>Dauer ca. 45 min.
-                <br>€ 43,00</span>
-            </product>            
-        </div>        
-      </div>
-
-      <div class="col-sm-4 col-xs-6 product-box">
-        <div class="panel panel-box">
-            <product>
-                <p></p>
-                <h4></h4> <br> 
-                <span>Dauer ca. 45 min.
-                <br>€ 43,00</span>
-            </product>            
-        </div>        
-      </div>
-
-    
-      
-    </div><!--/col-->
-
-</section>
-
-<section class="bg-4" id="sectionMassage">
-
-    <div class="container">
-      
-      <div class="col-sm-4 col-xs-6 product-box">
-        <div class="panel panel-box">
-             <div class="catheader"><h4>Massagen</h4></div>        
-             <div class="catimage"><img src="<?php bloginfo('template_directory'); ?>/images/massage.png" class="img-responsive catimage1"></div>
-        </div>        
-      </div>
-
-      <div class="col-sm-4 col-xs-6 product-box">
-        <div class="panel panel-box">
-            <product>
-                <p>Reinugung, Peeling, Massage, Maske, abschließende Pflege</p>
-                <h4>Kurzbehandlung zum Kennenlernen</h4> <br> <span>Dauer ca. 45 min.<br>€ 43,00</span>
-            </product>            
-        </div>        
-      </div>
-      
-      <div class="col-sm-4 col-xs-6 product-box">
-        <div class="panel panel-box">
-            <product>
-                <p>Reinugung, Peeling, Ausreinigung, Massage, Maske, abschließende Pflege</p>
-                <h4>Reinigungsbehandlung</h4> <br> <span>Dauer ca. 75 min.<br>€ 57,00</span>
-            </product>            
-        </div>        
-      </div>
-
-      <div class="col-sm-4 col-xs-6 product-box">
-        <div class="panel panel-box">
-            <product>
-                <p>Spezialbehandlung mit einem  maritimen, intensiv Feuchtigkeit spendenden Wirkstoff-Mix</p>
-                <h4>Vitalisierende Hydra Maske </h4> <br> <span>Dauer ca. 75 min.<br>€ 94,00</span>
-            </product>            
-        </div>        
-      </div>
-
-      <div class="col-sm-4 col-xs-6 product-box">
-        <div class="panel panel-box">
-            <product>
-                <p>Anti Age Spezialbehandlung</p>
-                <h4>Collagen</h4> <br> <span>Dauer ca. 45 min.<br>€ 43,00</span>
-            </product>            
-        </div>        
-      </div>
-
-      <div class="col-sm-4 col-xs-6 product-box">
-        <div class="panel panel-box">
-            <product>
-                <p>Reinigung, Peeling, Maske, abschließende Pflege</p>
-                <h4>Reinigungsbehandlung</h4> <br> <span>Dauer ca. 75 min.<br>€ 57,00</span>
-            </product>            
-        </div>        
-      </div>
-
-      <div class="col-sm-4 col-xs-6 product-box">
-        <div class="panel panel-box">
-            <product>
-                <p></p>
-                <h4></h4> <br> 
-                <span>Dauer ca. 45 min.
-                <br>€ 43,00</span>
-            </product>            
-        </div>        
-      </div>
-
-      <div class="col-sm-4 col-xs-6 product-box">
-        <div class="panel panel-box">
-            <product>
-                <p>Kühlende Spezialbehandlung zur Beruhigung empfindlicher und zu Rötung neigender Haut</p>
-                <h4>Cold Marine Mask</h4><br> 
-                <span>Dauer ca. 75 min.
-                <br>€ 88,00</span>
-            </product>            
-        </div>        
-      </div>
-
-      <div class="col-sm-4 col-xs-6 product-box">
-        <div class="panel panel-box">
-            <product>
-                <p></p>
-                <h4></h4> <br> 
-                <span>Dauer ca. 45 min.
-                <br>€ 43,00</span>
-            </product>            
-        </div>        
-      </div>
-
-      <div class="col-sm-4 col-xs-6 product-box">
-        <div class="panel panel-box">
-            <product>
-                <p></p>
-                <h4></h4> <br> 
-                <span>Dauer ca. 45 min.
-                <br>€ 43,00</span>
-            </product>            
-        </div>        
-      </div>
-
-    
-      
-    </div><!--/col-->
-
-</section>
-
-
-
-
+<div class="divider"></div>  
 
 <div class="divider" id="section4"></div>
 
@@ -666,7 +348,9 @@ Wunsch Tages Make-up
 
 
 	<!-- script references -->
-		<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.2/jquery.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/mustache.js/0.8.1/mustache.min.js"></script>
+
+		<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 		<script src="<?php bloginfo('template_directory'); ?>/js/bootstrap.min.js"></script>
 		<script src="http://maps.googleapis.com/maps/api/js?sensor=false&extension=.js&output=embed"></script>
 		<script src="<?php bloginfo('template_directory'); ?>/js/scripts.js"></script>

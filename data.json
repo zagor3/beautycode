@@ -1,0 +1,77 @@
+
+{
+  "katalog": [
+    {
+      "name": "Gesichtsbehandlungen",
+      "bild": "gesichtsbehandlungen.png",
+      "behandlungen": [
+        {
+          "titel": "Kurzbehandlung zum Kennenlernen",
+          "text": "Reinugung, Peeling, Massage,Maske, abschließende Pflege",
+          "preis": "43,00",
+          "dauer": 45
+        },
+        {
+           "titel": "Vitalisierende Hydra Maske",
+          "text": "Spezialbehandlung mit einem  maritimen, intensiv Feuchtigkeit spendenden Wirkstoff-Mix",
+          "preis": "94,00",
+          "dauer": 75
+        },
+        {
+           "titel": " Collagen",
+          "text": "Anti Age Spezialbehandlung gegen Fältchen und Falten",
+          "preis": "45,00",
+          "dauer": 75
+        }
+      ]
+    },
+    {
+      "name": "Körperbehandlungen",
+      "bild": "koerperbehandlungen.png",
+      "behandlungen": [
+        {
+          "titel": "Reinigungsbehandlung",
+          "text": "Reinigung, Peeling, Ausreinigen,  Maske, abschließende Pflege",
+          "preis": "57,00",
+          "dauer": 75
+        },
+        {
+          "titel": "hallo 2",
+          "text": "skdjfhalksjdhflaksjdfhlaksjdfh",
+          "preis": 60.34,
+          "dauer": 33
+        },
+        {
+          "titel": "hallo 3",
+          "text": "skdjfhalksjdhflaksjdfhlaksjdfh",
+          "preis": 60.34,
+          "dauer": 33
+        }
+      ]
+    },
+    {
+      "name": "Massagen",
+      "bild": "massage.png",
+      "behandlungen": [
+        {
+          "titel": "hallo 1",
+          "text": "skdjfhalksjdhflaksjdfhlaksjdfh",
+          "preis": 60.34,
+          "dauer": 33
+        },
+        {
+          "titel": "hallo 2",
+          "text": "skdjfhalksjdhflaksjdfhlaksjdfh",
+          "preis": 60.34,
+          "dauer": 33
+        },
+        {
+          "titel": "hallo 3",
+          "text": "skdjfhalksjdhflaksjdfhlaksjdfh",
+          "preis": 60.34,
+          "dauer": 33
+        }
+      ]
+    }
+  ]
+}

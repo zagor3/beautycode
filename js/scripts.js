@@ -1,3 +1,15 @@
+
+$.getJSON('http://localhost:8123/wordpress/wp-content/themes/beautycode/data.json', function(data) {
+    
+    var template = document.getElementById('product_template').innerHTML;
+
+    $('#products').html( Mustache.render(template, data));
+
+});
+
+
+
+
 $('.carousel').carousel({interval:5000});
 
 /* affix the navbar after scroll below header */
