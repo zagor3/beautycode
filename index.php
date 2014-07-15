@@ -3,6 +3,7 @@
 	
   <head>
 		<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta http-equiv="content-type" content="application/json; charset=UTF-8">
 		<meta charset="utf-8">
 		
 
@@ -206,16 +207,16 @@
               </div>
         
 
-          {{#behandlungen}}    
+          {{#produkte}}    
             <div class="col-sm-4 col-xs-6 product-box">
               <div class="panel panel-box">
                   <product>
                       <p>{{text}}</p>
-                      <h4>{{titel}}</h4> <br> <span>Dauer ca. {{dauer}} min.<br>€ {{preis}}</span>
+                      <h4>{{name}}</h4> <br> <span>Dauer ca. {{dauer}} min.<br>€ {{preis}}</span>
                   </product>            
               </div>        
             </div>
-          {{/behandlungen}} 
+          {{/produkte}} 
 
 
         </div><!--/container-->

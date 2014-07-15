@@ -1,75 +1,159 @@
-
 {
   "katalog": [
     {
+      "id": 2,
       "name": "Gesichtsbehandlungen",
       "bild": "gesichtsbehandlungen.png",
-      "behandlungen": [
+      "gueltigVon": "Jul 14, 2014 11:10:57 AM",
+      "gueltigBis": "Jul 14, 2014 11:10:57 AM",
+      "produkte": [
         {
-          "titel": "Kurzbehandlung zum Kennenlernen",
-          "text": "Reinugung, Peeling, Massage,Maske, abschließende Pflege",
-          "preis": "43,00",
-          "dauer": 45
+          "id": 42,
+          "name": "Kurzbehandlung zum Kennenlernen",
+          "bild": "",
+          "text": "Reinugung, Peeling, Massage,Maske, abschließende Pflege ",
+          "dauer": 45,
+          "preis": 43.0,
+          "created": "Jul 14, 2014 1:37:23 PM",
+          "updated": "Jul 14, 2014 1:37:23 PM"
         },
         {
-           "titel": "Vitalisierende Hydra Maske",
-          "text": "Spezialbehandlung mit einem  maritimen, intensiv Feuchtigkeit spendenden Wirkstoff-Mix",
-          "preis": "94,00",
-          "dauer": 75
+          "id": 43,
+          "name": "Vitalisierende Hydra Maske",
+          "bild": "",
+          "text": "Spezialbehandlung mit einem maritimen, intensiv Feuchtigkeit spendenden Wirkstoff-Mix",
+          "dauer": 75,
+          "preis": 94.0,
+          "created": "Jul 14, 2014 1:37:24 PM",
+          "updated": "Jul 14, 2014 1:37:24 PM"
         },
         {
-           "titel": " Collagen",
+          "id": 44,
+          "name": "Collagen",
+          "bild": "",
           "text": "Anti Age Spezialbehandlung gegen Fältchen und Falten",
-          "preis": "45,00",
-          "dauer": 75
+          "dauer": 75,
+          "preis": 89.0,
+          "created": "Jul 14, 2014 1:37:24 PM",
+          "updated": "Jul 14, 2014 1:37:24 PM"
+        },
+        {
+          "id": 46,
+          "name": "Reinigungsbehandlung",
+          "bild": "",
+          "text": "Reinigung, Peeling, Ausreinigen, Maske, abschließende Pflege",
+          "dauer": 75,
+          "preis": 57.0,
+          "created": "Jul 14, 2014 3:46:13 PM",
+          "updated": "Jul 14, 2014 3:46:13 PM"
+        },
+        {
+          "id": 63,
+          "name": "Gesichtsbehandlung Classic",
+          "text": "Reinigung, Peeling, Ausreinigen, Augenbrauenkorrektur, Wirkstoff-konzentrat, Gesichts-, Hals- und Dekollete-Massage, Maske, abschließende Pflege, auf  Wunsch Tages Make-up ",
+          "dauer": 90,
+          "preis": 72.0,
+          "created": "Jul 15, 2014 10:32:07 AM",
+          "updated": "Jul 15, 2014 10:32:07 AM"
+        },
+        {
+          "id": 64,
+          "name": "Aquarell",
+          "text": "Behandlungssystem mit Algen, natürlichen Algen, zum Ausgleichen, Remineralisieren und Befeuchten",
+          "dauer": 60,
+          "preis": 77.0,
+          "created": "Jul 15, 2014 10:32:08 AM",
+          "updated": "Jul 15, 2014 10:32:08 AM"
+        },
+        {
+          "id": 65,
+          "name": "Silicium",
+          "text": "Anti Age Spezialbehandlung gegen sichtbare Falten und schlaffe Haut",
+          "dauer": 90,
+          "preis": 107.0,
+          "created": "Jul 15, 2014 10:32:09 AM",
+          "updated": "Jul 15, 2014 10:32:09 AM"
+        },
+        {
+          "id": 66,
+          "name": "Teenager Behandlung",
+          "text": "(für Jugendliche unter 18 Jahren)  Reinigung, Peeling, Ausreinigen, Maske, abschließende Pflege",
+          "dauer": 60,
+          "preis": 33.0,
+          "created": "Jul 15, 2014 1:20:04 PM",
+          "updated": "Jul 15, 2014 1:20:04 PM"
+        },
+        {
+          "id": 67,
+          "name": "Protect",
+          "text": "Energetisierende Spezialbehandlung\t\t\tmit dem Complexe O2 Protect für mehr Frische und Leuchtkraft der  der Haut",
+          "dauer": 60,
+          "preis": 48.0,
+          "created": "Jul 15, 2014 1:20:05 PM",
+          "updated": "Jul 15, 2014 1:20:05 PM"
+        },
+        {
+          "id": 68,
+          "name": "Ocean Care",
+          "text": "Exclusive Anti Age Behandlung für den Mann",
+          "dauer": 75,
+          "preis": 78.0,
+          "created": "Jul 15, 2014 1:20:07 PM",
+          "updated": "Jul 15, 2014 1:20:07 PM"
         }
       ]
     },
     {
+      "id": 28,
       "name": "Körperbehandlungen",
       "bild": "koerperbehandlungen.png",
-      "behandlungen": [
+      "gueltigVon": "Jul 15, 2014 2:19:43 PM",
+      "gueltigBis": "Jul 15, 2014 2:19:43 PM",
+      "produkte": [
         {
-          "titel": "Reinigungsbehandlung",
-          "text": "Reinigung, Peeling, Ausreinigen,  Maske, abschließende Pflege",
-          "preis": "57,00",
-          "dauer": 75
+          "id": 69,
+          "name": "Meerschaum-Ganzkörperpeeling",
+          "text": "mit schäumendem Gel aus Kokosnuss und Rotalgenextrakten. Gleichzeitig wird Ihre Körperhaut mit sanften Massagebewegungen verwöhnt",
+          "dauer": 20,
+          "preis": 28.0,
+          "created": "Jul 15, 2014 2:20:21 PM",
+          "updated": "Jul 15, 2014 2:20:21 PM"
         },
         {
-          "titel": "hallo 2",
-          "text": "skdjfhalksjdhflaksjdfhlaksjdfh",
-          "preis": 60.34,
-          "dauer": 33
+          "id": 70,
+          "name": "Algen-Sahne-Ganzkörperpeeling",
+          "text": "ein sahniges,warmes Algen-Mousse befreit Ihren Körper sanft und pflegend von abgestorbenen Hautschüppchen",
+          "dauer": 20,
+          "preis": 28.0,
+          "created": "Jul 15, 2014 2:25:02 PM",
+          "updated": "Jul 15, 2014 2:25:02 PM"
         },
         {
-          "titel": "hallo 3",
-          "text": "skdjfhalksjdhflaksjdfhlaksjdfh",
-          "preis": 60.34,
-          "dauer": 33
-        }
-      ]
-    },
-    {
-      "name": "Massagen",
-      "bild": "massage.png",
-      "behandlungen": [
-        {
-          "titel": "hallo 1",
-          "text": "skdjfhalksjdhflaksjdfhlaksjdfh",
-          "preis": 60.34,
-          "dauer": 33
+          "id": 71,
+          "name": "Anti Cellulite Thalgomince LC24 inkl. Peeling",
+          "text": "Packung aus Alginat und Diatomee in Kombination mit einem Wirksoff-Extrakt wirkt bei Bindegewebsschwäche und Cellulite unterstützend beim Fettabbau, entwässernd und straffend",
+          "dauer": 60,
+          "preis": 98.0,
+          "created": "Jul 15, 2014 2:26:31 PM",
+          "updated": "Jul 15, 2014 2:26:31 PM"
         },
         {
-          "titel": "hallo 2",
-          "text": "skdjfhalksjdhflaksjdfhlaksjdfh",
-          "preis": 60.34,
-          "dauer": 33
+          "id": 72,
+          "name": "Frigi-Thalassowickel inkl. Peeling",
+          "text": "Kühle Wickel, getränkt mit einer Algen-Kampfer-Menthol-Lösung, unterstützen die Fettverbrennung bei Cellulite und Reiterhosen  wirken lindernd bei Besenreisern, Krampfadern und müden schweren Beinen",
+          "dauer": 60,
+          "preis": 62.0,
+          "created": "Jul 15, 2014 2:26:54 PM",
+          "updated": "Jul 15, 2014 2:26:54 PM"
         },
         {
-          "titel": "hallo 3",
-          "text": "skdjfhalksjdhflaksjdfhlaksjdfh",
-          "preis": 60.34,
-          "dauer": 33
+          "id": 73,
+          "name": "Wellnesspause Samt und Seide inkl. Peeling",
+          "text": "kleine Wohlfühlbehandlung für Gesicht und Körper auf Thalassobasis zur Pflege und Entspannung von Kopf bis Fuß",
+          "dauer": 50,
+          "preis": 57.0,
+          "created": "Jul 15, 2014 2:27:16 PM",
+          "updated": "Jul 15, 2014 2:27:16 PM"
         }
       ]
     }
