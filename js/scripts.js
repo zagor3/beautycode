@@ -1,5 +1,5 @@
 
-$.getJSON('http://localhost:8123/wordpress/wp-content/themes/beautycode/data.json', function(data) {
+$.getJSON('http://beautycode-stuttgart.de/wp-content/themes/bc/data.json', function(data) {
     
     var template = document.getElementById('product_template').innerHTML;
 
